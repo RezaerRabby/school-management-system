@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# environment
+.env
+.env.local
+
+# Next.js
+.next/
+
+# NestJS
+dist/
+
+# logs
+*.log
+
+# uploads
+uploads/
+
+# OS files
+.DS_Store
