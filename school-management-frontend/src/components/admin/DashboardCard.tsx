@@ -12,7 +12,7 @@ export default function DashboardCard({
 }: DashboardCardProps) {
 
   return (
-    <div className="bg-white rounded-xl shadow p-6 flex items-center justify-between">
+    <div className="bg-white rounded-xl shadow p-6 flex items-center justify-between mt-10">
 
       <div>
         <p className="text-gray-500 text-sm">

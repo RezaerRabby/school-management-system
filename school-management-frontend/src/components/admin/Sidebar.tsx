@@ -1,5 +1,6 @@
 "use client";
 
+import { LogOut } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -54,8 +55,8 @@ export default function Sidebar() {
 
       {/* Logo */}
       <div className="h-16 flex items-center justify-center border-b border-gray-700">
-        <h1 className="text-xl font-bold">
-          School ERP
+        <h1 className="text-xl font-bold first-letter:uppercase flex text-center">
+          School Management System
         </h1>
       </div>
 
@@ -81,6 +82,13 @@ export default function Sidebar() {
         ))}
 
       </nav>
+
+
+       {/* Logout */}
+          <button className="flex items-center gap-2 rounded-lg bg-red-500 px-4 py-2 text-white transition hover:bg-red-600 ml-4">
+            <LogOut size={18} />
+            Logout
+          </button>
 
 
     </aside>
