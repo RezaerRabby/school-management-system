@@ -1,3 +1,174 @@
+school-management-frontend/
+│
+├── public/
+│   ├── images/
+│   │   ├── logo/
+│   │   ├── banners/
+│   │   └── gallery/
+│   │
+│   ├── icons/
+│   └── favicon.ico
+│
+├── src/
+│
+├── app/
+│   │
+│   ├── (client)/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx                 → Home Page
+│   │   │
+│   │   ├── about/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── admission/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── notice/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── events/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── gallery/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── teachers/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── contact/
+│   │   │   └── page.tsx
+│   │   │
+│   │   └── result-check/
+│   │       └── page.tsx
+│   │
+│   │
+│   ├── (admin-auth)/
+│   │   └── admin/
+│   │       └── login/
+│   │           └── page.tsx
+│   │
+│   │
+│   ├── (admin-panel)/
+│   │   └── admin/
+│   │       │
+│   │       ├── layout.tsx
+│   │       │
+│   │       ├── dashboard/
+│   │       │   └── page.tsx
+│   │       │
+│   │       ├── users/
+│   │       │   └── page.tsx
+│   │       │
+│   │       ├── students/
+│   │       │   └── page.tsx
+│   │       │
+│   │       ├── teachers/
+│   │       │   └── page.tsx
+│   │       │
+│   │       ├── parents/
+│   │       │   └── page.tsx
+│   │       │
+│   │       ├── staff/
+│   │       │   └── page.tsx
+│   │       │
+│   │       ├── classes/
+│   │       │   └── page.tsx
+│   │       │
+│   │       ├── subjects/
+│   │       │   └── page.tsx
+│   │       │
+│   │       ├── attendance/
+│   │       │   └── page.tsx
+│   │       │
+│   │       ├── exams/
+│   │       │   └── page.tsx
+│   │       │
+│   │       ├── results/
+│   │       │   └── page.tsx
+│   │       │
+│   │       ├── homework/
+│   │       │   └── page.tsx
+│   │       │
+│   │       ├── fees/
+│   │       │   └── page.tsx
+│   │       │
+│   │       ├── reports/
+│   │       │   └── page.tsx
+│   │       │
+│   │       ├── notifications/
+│   │       │   └── page.tsx
+│   │       │
+│   │       └── settings/
+│   │           └── page.tsx
+│   │
+│   │
+│   ├── layout.tsx
+│   ├── loading.tsx
+│   ├── error.tsx
+│   ├── not-found.tsx
+│   └── globals.css
+│
+│
+├── features/
+│
+│   ├── auth/
+│   │   ├── components/
+│   │   │   └── LoginForm.tsx
+│   │   ├── api/
+│   │   ├── hooks/
+│   │   └── types/
+│   │
+│   ├── students/
+│   ├── teachers/
+│   ├── users/
+│   ├── attendance/
+│   ├── exams/
+│   ├── results/
+│   ├── fees/
+│   └── settings/
+│
+│
+├── components/
+│
+│   ├── ui/
+│   │   ├── Button.tsx
+│   │   ├── Input.tsx
+│   │   └── Card.tsx
+│   │
+│   ├── client/
+│   │   ├── Navbar.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Hero.tsx
+│   │   └── Section.tsx
+│   │
+│   └── admin/
+│       ├── Sidebar.tsx
+│       ├── Header.tsx
+│       └── DashboardCard.tsx
+│
+│
+├── services/
+│   └── axios.ts
+│
+├── store/
+│   └── auth.store.ts
+│
+├── hooks/
+│
+├── lib/
+│
+├── types/
+│
+├── utils/
+│
+├── constants/
+│
+├── middleware.ts
+│
+├── .env.local
+├── next.config.ts
+├── tsconfig.json
+└── package.json
 
 
 
