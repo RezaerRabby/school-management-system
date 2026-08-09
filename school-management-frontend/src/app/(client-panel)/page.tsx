@@ -9,7 +9,6 @@ import EventSection from "@/components/client/EventSection";
 import GallerySection from "@/components/client/GallerySection";
 import ContactSection from "@/components/client/ContactSection";
 
-
 export default function HomePage() {
 
   return (
@@ -33,6 +32,13 @@ export default function HomePage() {
 
       <ContactSection />
 
+
+
+
+
     </main>
   );
 }
+
+
+
