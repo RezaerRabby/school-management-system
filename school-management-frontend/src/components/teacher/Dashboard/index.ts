@@ -1,0 +1,9 @@
+export { default as Dashboard } from "./Dashboard";
+export { default as StatsCards } from "./StatsCards";
+export { default as AttendanceOverview } from "./AttendanceOverview";
+export { default as ClassOverview } from "./ClassOverview";
+export { default as AssignmentsOverview } from "./AssignmentsOverview";
+export { default as ExamsOverview } from "./ExamsOverview";
+export { default as LeaveOverview } from "./LeaveOverview";
+export { default as UpcomingClasses } from "./UpcomingClasses";
+export { default as RecentNotices } from "./RecentNotices";
